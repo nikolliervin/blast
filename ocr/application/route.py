@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile
-from app.controllers import recognize_controller
+from application.controllers import recognize_controller
 from fastapi.responses import JSONResponse
 
 router = APIRouter()
