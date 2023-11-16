@@ -23,5 +23,6 @@ Make sure you have the following prerequisites installed:
 ### Usage
 
 1.Run the API:
+
    ```bash
    uvicorn main:app --reload
