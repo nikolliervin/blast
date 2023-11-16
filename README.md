@@ -16,13 +16,21 @@ Make sure you have the following prerequisites installed:
 ### Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/nikolliervin/blast-ocr-api.git
 
 ### Usage
 
-1.Run the API:
-
+1. Run the API (First Instance)
    ```bash
    uvicorn main:app --reload
+2. Make a HTTP POST Request to:
+   ```bash 
+   /recognize
+  
+3. Curl example:
+   ```bash
+   curl --location 'http://127.0.0.1:8000/recognize' \ --form 'image=@"C:\\Users\\...\\Desktop\\fastapi.png"'
+4. API Response
+   ```bash
+   {"text": "FastAPI."}
