@@ -1,4 +1,4 @@
-**# blast**# Blast OCR API
+# Blast OCR API
 
 Blast OCR is a Python API that provides a simple endpoint for optical character recognition (OCR) using Tesseract. The API takes an image as input, processes it using Tesseract, and returns the extracted text from the image.
 
